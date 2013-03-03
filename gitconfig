@@ -1,0 +1,7 @@
+[user]
+	name = GAO Xiang
+	email = gaox@gwu.edu
+[color]
+	ui = true
+[core]
+	editor = vim

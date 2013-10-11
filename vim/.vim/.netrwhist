@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/patriot7/IdeaProjects/argos/.idea'
+let g:netrw_dirhist_2='/Users/patriot7/.vagrant.d/boxes'
+let g:netrw_dirhist_3='/Users/patriot7/.vagrant.d/boxes/coreos'
+let g:netrw_dirhist_4='/Users/patriot7/.vagrant.d/boxes/coreos/virtualbox'
+let g:netrw_dirhist_5='/Users/patriot7/.vim/bundle/vim-sensible'
+let g:netrw_dirhist_6='/Users/patriot7/.vim/bundle/vim-sensible/plugin'
+let g:netrw_dirhist_7='/Users/patriot7/.vim/bundle/nerdtree'
+let g:netrw_dirhist_8='/Users/patriot7/.vim/bundle/vim-sleuth/plugin'

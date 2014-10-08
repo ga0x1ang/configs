@@ -1,0 +1,5 @@
+execute pathogen#infect()
+set nu
+set expandtab
+set background=dark
+colorscheme solarized

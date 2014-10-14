@@ -1,6 +1,0 @@
-# required by google-chrome (argument)
->=www-client/google-chrome-37.0.2062.94_p1 google-chrome
-# required by adobe-flash (argument)
->=www-plugins/adobe-flash-11.2.202.406 AdobeFlash-11.x
-# required by oracle-jdk-bin (argument)
->=dev-java/oracle-jdk-bin-1.8.0.11 Oracle-BCLA-JavaSE

@@ -1,0 +1,9 @@
+out_to_console yes
+out_to_x no
+background no
+update_interval 2
+total_run_times 0
+use_spacer none
+
+TEXT
+Volume: ${exec amixer get Master | egrep -o "[0-9]+%" | head -1 | egrep -o "[0-9]*"} :: ${cpu cpu1}% / ${cpu cpu2}% / ${cpu cpu3}% / ${cpu cpu4}% ${loadavg 1} ${loadavg 2 3} :: $memperc% ($mem) :: ${downspeed wlan0}K/s ${upspeed wlan0}K/s :: ${time %a %b %d %I:%M%P}

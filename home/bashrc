@@ -16,5 +16,6 @@ fi
 
 # Put your fun stuff here.
 export GOPATH=$HOME/golang
+export PATH=$PATH:~/.gem/ruby/2.1.0/bin
 complete -cf sudo
 complete -cf man

@@ -1,8 +1,0 @@
-# required by dev-libs/libnl-3.2.25[python,python_targets_python3_4]
-# required by net-wireless/crda-1.1.3-r1
-# required by net-wireless/wpa_supplicant-2.3
-# required by net-misc/networkmanager-0.9.10.0-r2[wifi]
-# required by @selected
-# required by @world (argument)
-# /usr/portage/profiles/package.mask/funtoo-python:
-=dev-lang/python-3.4.3_pre20141116

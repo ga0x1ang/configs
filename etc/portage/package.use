@@ -1,21 +1,29 @@
 sys-kernel/debian-sources binary
-x11-wm/dwm xinerama
+x11-wm/dwm xinerama dmenu
 dev-db/mariadb -community -extraengine -xml
 net-misc/networkmanager -modemmanager -ppp -bluetooth
 dev-vcs/git -webdav
-# required by net-print/cups-2.0.0-r2
+net-libs/nodejs -npm
+dev-lang/php curl
+app-admin/sudo offensive -sendmail
+# required by www-client/firefox-35.0
+# required by @selected
+# required by @world (argument)
+>=media-libs/libpng-1.6.16 apng
+# required by sys-devel/clang-3.5.1-r100
+# required by @selected
+# required by @world (argument)
+=sys-devel/llvm-3.5.1 clang
+# required by dev-lang/php-5.5.22
+# required by @selected
+# required by @world (argument)
+>=app-admin/eselect-php-0.7.1-r3 fpm
+# required by net-print/cups-2.0.2-r1
 # required by @selected
 # required by @world (argument)
 >=app-text/ghostscript-gpl-9.15-r1 cups
-# required by www-client/firefox-34.0.5-r1
+# required by virtual/httpd-php-5.5
+# required by dev-db/phpmyadmin-4.3.8
 # required by @selected
 # required by @world (argument)
->=media-libs/libpng-1.6.15 apng
-# required by sys-devel/clang-3.5.0-r100
-# required by @selected
-# required by @world (argument)
-=sys-devel/llvm-3.5.0 clang
-# required by app-emulation/docker-1.4.1[device-mapper]
-# required by @selected
-# required by @world (argument)
-=sys-fs/lvm2-2.02.103 thin
+>=dev-lang/php-5.5.22:5.5 mysqli fpm

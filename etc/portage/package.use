@@ -6,6 +6,9 @@ dev-vcs/git -webdav
 net-libs/nodejs -npm
 dev-lang/php curl
 app-admin/sudo offensive -sendmail
+app-emulation/virtualbox extensions -sdk
+net-print/cups python
+dev-db/mysql-workbench gnome-keyring
 # required by www-client/firefox-35.0
 # required by @selected
 # required by @world (argument)
@@ -18,12 +21,24 @@ app-admin/sudo offensive -sendmail
 # required by @selected
 # required by @world (argument)
 >=app-admin/eselect-php-0.7.1-r3 fpm
-# required by net-print/cups-2.0.2-r1
-# required by @selected
-# required by @world (argument)
->=app-text/ghostscript-gpl-9.15-r1 cups
 # required by virtual/httpd-php-5.5
 # required by dev-db/phpmyadmin-4.3.8
 # required by @selected
 # required by @world (argument)
 >=dev-lang/php-5.5.22:5.5 mysqli fpm
+# required by net-print/cups-2.0.2-r1
+# required by @selected
+# required by @world (argument)
+>=app-text/ghostscript-gpl-9.15-r1 cups
+# required by dev-db/mysql-workbench-6.2.5
+# required by mysql-workbench (argument)
+>=dev-lang/lua-5.1.5-r3:0 deprecated
+# required by gnome-base/gnome-keyring-3.14.0
+# required by gnome-base/libgnome-keyring-3.12.0
+# required by dev-db/mysql-workbench-6.2.5[gnome-keyring]
+# required by mysql-workbench (argument)
+>=app-crypt/gcr-3.14.0-r1 gtk
+# required by dev-lang/python-2.7.9-r1000[-build,gdbm]
+# required by @system
+# required by @world (argument)
+>=sys-libs/gdbm-1.11 berkdb
